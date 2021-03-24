@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# OS image files
+.iso
+.bin
+
+#Directories
+build/
+buildenv/
+dist/
