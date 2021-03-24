@@ -19,8 +19,16 @@ Grub-pc-bin and grub-common for the bootloader.
 
 You can alternatively use a Docker container builder to create a ready-to-use build environment from the included Dockerfile.
 
+for Windows:
+
 ```bash
-docker run --rm -it -v %cd%:/root/env galacticos-buildenv
+docker run --rm -it -v "%cd%":/root/env galacticos-buildenv
+```
+
+for Linux:
+
+```bash
+docker run --rm -it -v "$(pwd)":/root/env galacticos-buildenv
 ```
 
 ## Contributing
