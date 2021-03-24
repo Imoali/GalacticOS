@@ -32,8 +32,8 @@
 *.app
 
 # OS image files
-.iso
-.bin
+*.iso
+*.bin
 
 #Directories
 build/
